@@ -1,0 +1,22 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^2.1.0",
+    "ganache-cli": "^6.12.2",
+    "mocha": "^10.7.3",
+    "node": "^16.0.0",
+    "solc": "^0.8.17",
+    "web3": "^1.0.0-beta.26"
+  }
+}
