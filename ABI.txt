@@ -1,0 +1,111 @@
+ABI:  [
+  {
+    inputs: [ [Object], [Object] ],
+    stateMutability: 'nonpayable',
+    type: 'constructor'
+  },
+  {
+    anonymous: false,
+    inputs: [ [Object], [Object], [Object], [Object] ],
+    name: 'SwapDebug',
+    type: 'event'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'acceptResale',
+    outputs: [],
+    stateMutability: 'payable',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'acceptSwap',
+    outputs: [],
+    stateMutability: 'nonpayable',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'buyTicket',
+    outputs: [],
+    stateMutability: 'payable',
+    type: 'function'
+  },
+  {
+    inputs: [],
+    name: 'checkResale',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'getTicketOf',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [],
+    name: 'manager',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [],
+    name: 'numTickets',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'offerSwap',
+    outputs: [],
+    stateMutability: 'nonpayable',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'resalePrices',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'resaleTicket',
+    outputs: [],
+    stateMutability: 'nonpayable',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'swapOffers',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'ticketOwners',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [],
+    name: 'ticketPrice',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  },
+  {
+    inputs: [ [Object] ],
+    name: 'ticketsOwnedBy',
+    outputs: [ [Object] ],
+    stateMutability: 'view',
+    type: 'function'
+  }
+]
